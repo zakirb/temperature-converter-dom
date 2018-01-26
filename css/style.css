@@ -1,3 +1,48 @@
-h1 {
-  color: blue;
+body {
+	margin:0;
+	padding:0;
+	font-size:100%;
+	line-height:1;
+	text-align: center;
+	color: #8F8F8F;
+	
+	font-family: Roboto, "Helvetica Neue", sans-serif;
+
+}
+
+#container {
+	background-color: rgb(220, 220, 220);
+	width:600px;
+	height:300px;
+	position:relative;
+	margin: 30px auto;
+	padding: 30px;
+	border-radius: 20px;
+
+}
+
+#tempBox {
+	width: 30%;
+	padding: 10px 50px;
+	margin: 5px auto 10px;
+	border-radius: 7px;
+	border: solid 0.5px #8F8F8F;
+}
+
+#submit {
+	margin: 5px 3px;
+}
+
+#clear {
+	margin: 5px 3px;
+}
+
+#result {
+	background-color: blue;
+	width: 55%;
+	height: 50px;
+	margin: 20px auto;
+	text-align: center;
+	font-size: 45px;
+	color: white;
 }
